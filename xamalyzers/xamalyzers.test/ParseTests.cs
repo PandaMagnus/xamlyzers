@@ -2,6 +2,8 @@ namespace xamalyzers.test;
 
 public class ParseTests
 {
+    // Instead of keeping track of good and bad XAML,
+    // Inject the type of XAML we want to look for as part of the test.
     private const string GenericError = "An unspecified error occured.";
 
     [Fact]
